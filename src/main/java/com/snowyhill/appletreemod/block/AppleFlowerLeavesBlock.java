@@ -27,6 +27,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.core.Direction;
 
 // BlockではなくLeavesBlockを継承する
 public class AppleFlowerLeavesBlock extends LeavesBlock implements BonemealableBlock {
